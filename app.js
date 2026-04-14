@@ -18,7 +18,8 @@ const listingRouter = require("./Routes/listing.js");
 const reviewRouter = require("./Routes/review.js");
 const userRouter = require("./Routes/user.js");
 
-const dbUrl = process.env.ATLASDB_URL || 'mongodb://127.0.0.1:27017/wanderlust';
+//process.env.ATLASDB_URL ||
+const dbUrl = 'mongodb://127.0.0.1:27017/wanderlust';
 
 (async function () {
     try {
